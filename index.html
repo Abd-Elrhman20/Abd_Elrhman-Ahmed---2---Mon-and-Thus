@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sec Task</title>
+    <!-- scss file -->
+    <link rel="stylesheet" href="scss/index.css">
+</head>
+
+<body>
+    <div class="main-red-div">
+        <span>personal Data</span>
+        <div class="colored-div">
+            <span>Your Name</span>
+            <form action="">
+                <label for="Frist-Name">Frist Name : </label>
+                <input id="Frist-Name" placeholder="Ex : Ahmed" type="text">
+                <br><br>
+                <label for="Sec-Name">Second Name : </label>
+                <input id="Sec-Name" placeholder="Ex : Bahnasy" type="text">
+            </form>
+        </div>
+        <div class="sec-form">
+            <form action="">
+                <label for="phone">Your Phone : </label>
+                <input id="phone" type="number">
+                <br><br>
+                <label for="Email">Email : </label>
+                <input id="Email" type="email">
+                <br><br>
+                <label for="password">password : </label>
+                <input type="password">
+                <br><br>
+                <label for="re_pass">re-password : </label>
+                <input id="re_pass" type="password">
+            </form>
+        </div>
+        <div class="raido">
+            <form action="">
+                <input type="radio" name="gender" value="male">
+                <label for="gender">male</label>
+                <br>
+                <input type="radio" name="gender" value="Female">
+                <label for="gender">Female</label>
+            </form>
+            <br><br>
+            <form action="">
+                <input type="radio" name="gender" value="Student">
+                <label for="gender">Student</label>
+                <br>
+                <input type="radio" name="gender" value="Graduated">
+                <label for="gender">Graduated</label>
+            </form>
+        </div>
+        <div class="list">
+            <form action="">
+                <input list="universities" name="universities" placeholder="AUC">
+                <datalist id="universities">
+                    <optgroup label="universities">
+                        <option value="AUC"></option>
+                        <option value="BUC"></option>
+                        <option value="HTI"></option>
+                    </optgroup>
+                </datalist>
+                <br><br>
+                <button>Submit</button>
+            </form>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

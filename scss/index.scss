@@ -1,0 +1,71 @@
+$main_color:red;
+
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+    div.main-red-div {
+        background-color: $main_color;
+        margin: 10px;
+        height: auto;
+        padding-bottom: 2%;
+
+
+        span {
+            background-color: #5788b1;
+            padding: 0.5%;
+            margin-left: 1.5%;
+        }
+
+        .colored-div {
+            background-color: yellow;
+            margin: 6% 2% 0% 2%;
+            padding: 5% 0 2% 0;
+            position: relative;
+
+            form {
+                margin-left: 1%;
+            }
+
+            span {
+                background-color: #6495ef;
+                padding: 2.5% 0;
+                position: absolute;
+                top: -50px;
+            }
+        }
+
+        .sec-form {
+            margin: 2% 2% 0% 2%;
+
+            form {
+                margin-left: 1%;
+            }
+        }
+
+        .raido {
+            margin: 2% 2% 0% 2%;
+
+            form {
+                margin-left: 1%;
+            }
+        }
+
+        .list {
+            margin: 2% 2% 0% 2%;
+
+            form {
+                margin-left: 1%;
+
+                button {
+                    background-color: black;
+                    color: white;
+                    padding: 0 1%;
+                }
+            }
+        }
+
+    }
+
+}

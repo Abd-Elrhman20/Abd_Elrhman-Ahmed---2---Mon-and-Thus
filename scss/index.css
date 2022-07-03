@@ -1,0 +1,55 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body div.main-red-div {
+  background-color: red;
+  margin: 10px;
+  height: auto;
+  padding-bottom: 2%;
+}
+body div.main-red-div span {
+  background-color: #5788b1;
+  padding: 0.5%;
+  margin-left: 1.5%;
+}
+body div.main-red-div .colored-div {
+  background-color: yellow;
+  margin: 6% 2% 0% 2%;
+  padding: 5% 0 2% 0;
+  position: relative;
+}
+body div.main-red-div .colored-div form {
+  margin-left: 1%;
+}
+body div.main-red-div .colored-div span {
+  background-color: #6495ef;
+  padding: 2.5% 0;
+  position: absolute;
+  top: -50px;
+}
+body div.main-red-div .sec-form {
+  margin: 2% 2% 0% 2%;
+}
+body div.main-red-div .sec-form form {
+  margin-left: 1%;
+}
+body div.main-red-div .raido {
+  margin: 2% 2% 0% 2%;
+}
+body div.main-red-div .raido form {
+  margin-left: 1%;
+}
+body div.main-red-div .list {
+  margin: 2% 2% 0% 2%;
+}
+body div.main-red-div .list form {
+  margin-left: 1%;
+}
+body div.main-red-div .list form button {
+  background-color: black;
+  color: white;
+  padding: 0 1%;
+}
